@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    padding: 0 100px;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-elements ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cta-section{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
