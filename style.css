@@ -31,7 +31,7 @@ body {
   color: black;
 }
 li:hover {
-  color: aqua;
+  color: rgb(243, 148, 214);
 }
 
 .navbar .logo {
@@ -104,7 +104,7 @@ button:hover {
 .text-section h1{
   margin-bottom: 30px;
   font-size: 60px;
-  color:aquamarine;
+  color:rgb(235, 197, 251);
 
 }
 h2{
@@ -124,3 +124,63 @@ p{
 
 }
 
+.about-section{
+  height: 100vh;
+  display: flex;
+  overflow: Hidden;
+  background-color: lightblue;
+}
+
+.about-me-section{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+  text-align: justify;  
+}
+
+.about-me-section h1{
+  font-size: 60px;
+  margin-bottom: 25px; 
+}
+
+.about-me-section p{
+  font-size: 18px;
+  overflow: hidden;
+  line-height: 1.8;
+}
+
+.skills-section{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.skills-section h1{
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.my-skills{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 100%;
+  list-style: none;
+}
+
+.my-skills li{
+  background-color: whitesmoke;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.my-skills li:hover{
+  background-color: antiquewhite;
+  transform: translate(-5px);
+}
